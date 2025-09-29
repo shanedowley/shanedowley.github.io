@@ -1,2 +1,13 @@
+# macOS system files
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Ruby
+.ruby-version
+
+# Others you don’t want tracked
 _site/
 .jekyll-cache

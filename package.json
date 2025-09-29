@@ -1,0 +1,30 @@
+{
+  "name": "shanedowley.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/tailwind.css -o ./css/main.css --watch",
+    "serve:jekyll": "bundle exec jekyll serve",
+    "dev": "npm-run-all --parallel build:css serve:jekyll",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanedowley/shanedowley.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shanedowley/shanedowley.github.io/issues"
+  },
+  "homepage": "https://github.com/shanedowley/shanedowley.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
