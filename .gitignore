@@ -1,13 +1,40 @@
-# macOS system files
-.DS_Store
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
 
-# Node
+# Tailwind / Node
 node_modules/
 package-lock.json
 
-# Ruby
-.ruby-version
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Others you don’t want tracked
-_site/
-.jekyll-cache
+# Ruby / Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# OS / Editor junk
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.un~
+*~
+
+# Neovim sessions, backups
+Session.vim
+*.sw?
+
+# IDE specific
+.vscode/
+.idea/
+
+# Generated CSS (we build this from tailwind.css)
+css/main.css
+
+
