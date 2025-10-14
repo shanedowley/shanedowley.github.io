@@ -37,3 +37,7 @@ gem "webrick", "~> 1.8"
 gem "csv", "~> 3.3"
 
 gem "base64", "~> 0.3.0"
+
+# add ruby-lsp to project Gemfile
+gem "ruby-lsp", require: false
+
