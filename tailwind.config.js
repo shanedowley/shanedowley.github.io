@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./_includes/**/*.{html,md}",
-    "./_layouts/**/*.{html,md}",
-    "./_posts/**/*.{html,md}",
-    "./*.{html,md}",
-    "./**/*.html", // catch index.html and any generated pages
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+    content: [
+        "./_includes/**/*.{html,md,liquid}",
+        "./_layouts/**/*.{html,md,liquid}",
+        "./_posts/**/*.{html,md,liquid}",
+        "./_drafts/**/*.{html,md,liquid}",
+        "./*.{html,md,liquid}",
+        "!./_site/**/*",       // ignore generated site output
+        "!./node_modules/**/*" // ignore dependencies
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
 };
