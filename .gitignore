@@ -16,7 +16,6 @@ yarn-error.log*
 # Ruby / Bundler
 .bundle/
 vendor/
-Gemfile.lock
 
 # OS / Editor junk
 .DS_Store
@@ -34,7 +33,7 @@ Session.vim
 .vscode/
 .idea/
 
-# Generated CSS (we build this from tailwind.css)
-css/main.css
+# Generated CSS (we build this from src/input.css)
+css/tailwind.css
 
 

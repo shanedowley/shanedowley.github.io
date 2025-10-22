@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is title of the post
+title: This is where the title of the post goes.
 postHero: /images/shark.jpg
 author: Me, Myself and I
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
