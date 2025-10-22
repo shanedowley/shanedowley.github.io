@@ -388,6 +388,7 @@ h2~p {
 }
 
 /* HERO STYLES */
+
 .full-hero {
     background-color: #c7dbfc;
     background-size: cover;
@@ -439,10 +440,11 @@ h2~p {
 .half-hero {
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    height: 28vh;
 }
 
 /* SOCIAL STYLES */
+
 .social-link {
     background: rgba(150, 150, 150, 0.5);
     border-radius: 99px;
@@ -477,6 +479,7 @@ h2~p {
 }
 
 /* HOMEPAGE STYLES */
+
 .home-section {
     margin: 6rem auto;
     max-width: 980px;
@@ -486,6 +489,20 @@ h2~p {
 .home-section h2 {
     margin-bottom: 1.5rem;
     text-align: center;
+}
+
+.home-section h4 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.home-section .post-header {
+    text-align: auto;
+}
+
+.home-section .blog-posts {
+    margin: auto;
+    width: 75%;
 }
 
 .home-callout {
@@ -515,6 +532,7 @@ h2~p {
 }
 
 /* BIO STYLES */
+
 .bio-wrapper {
     font-size: 24px;
     margin: auto;
@@ -557,6 +575,7 @@ h2~p {
 }
 
 /* GALLERY STYLES */
+
 .gallery-thumbs {
     height: 90vh;
     overflow: scroll;
@@ -602,6 +621,7 @@ h2~p {
 }
 
 /* BLOG STYLES */
+
 .blog-recent {
     text-align: right;
 }
@@ -678,7 +698,7 @@ h2~p {
 }
 
 .post-aside {
-    background-color: rgba(0, 0, 0, 9.01);
+    background-color: rgba(0, 0, 0, 0.01);
     float: right;
     margin: 0 0 2em 2em;
     padding: 2em;
@@ -699,4 +719,15 @@ h2~p {
     font-size: 0.8em;
     margin-top: 3em;
     padding-top: 2em;
+}
+
+@media (max-width: 800px) {
+    html {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .post-aside {
+        display: none;
+    }
 }
